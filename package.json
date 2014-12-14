@@ -1,6 +1,6 @@
 {
   "name": "bice"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "description": "Bice, a tiny module that offers a fast way to swap arbitrary length sequences of bytes within a Buffer, using only the Buffer itself and the bitwise XOR operator."
   , "homepage": "https://github.com/rootslab/bice"
   , "private": false
