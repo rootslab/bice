@@ -6,7 +6,7 @@ exports.test  = function ( done, assertions ) {
     var log = console.log
         , exit = typeof done === 'function' ? done : function () {}
         , assert = assertions || require( 'assert' )
-        , Bice = require( 'bice' )
+        , Bice = require( '../' )
         , numbers = [ 0, 11, 20, 36, 44, 54, 69, 72, 83, 255 ]
         , b = new Buffer( numbers )
         , r = new Buffer( numbers.reverse() )
