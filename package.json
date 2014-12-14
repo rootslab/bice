@@ -1,0 +1,41 @@
+{
+  "name": "bice"
+  , "version": "0.1.0"
+  , "description": "Bice, a tiny module that offers a fast way to swap arbitrary length sequences of bytes within a Buffer, using only the Buffer itself and the bitwise XOR operator."
+  , "homepage": "https://github.com/rootslab/bice"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/bice.git"
+  }
+  , "keywords": [
+    "bice"
+    , "Buffer"
+    , "swap"
+    , "reverse"
+    , "XOR"
+    , "bitwise"
+    , "util"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+  },
+  "devDependencies": {
+     "dado" : ">=0.2.0"
+  }
+  , "main": "index"
+  , "engines": {
+    "node": ">=0.10.x"
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
+    "url": "https://github.com/rootslab/bice/issues"
+  }
+}
