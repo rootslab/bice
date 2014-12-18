@@ -63,6 +63,7 @@ var Bice  = require( 'bice' );
  * - sequences shouldn't overflow Buffer length.
  * - sequence 1 starts from pos1 and ends to pos1 + bytes - 1.
  * - sequence 2 starts from pos2 and ends to pos2 + bytes - 1.
+ * - pos1 could be > than pos2, the order of indexes doesn't matter.
  */
 Bice#swap : function ( Buffer buffer, Number pos1, Number pos2 , Number bytes ) : Boolean
 
