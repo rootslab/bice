@@ -72,6 +72,16 @@ Bice#swap : function ( Buffer buffer, Number pos1, Number pos2 , Number bytes ) 
  * It returns true if reversing was successfull, false otherwise.
  */
 Bice#reverse : function ( Buffer buffer [, Number pos [, Number bytes ] ] ) : Boolean
+
+/*
+ * Compares values from 2 buffers.
+ * It returns:
+ * -  0 when b1 === b2
+ * - +1 when b1 > b2
+ * - -1 when b1 < b2
+ * - null otherwise
+ */
+Bice#compare : function ( Buffer b1, Number p1, Buffer b2, Number p2 [, Number bytes ] ) : Number
 ```
 
 ### MIT License
