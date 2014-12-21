@@ -13,6 +13,7 @@ exports.test  = function ( done, assertions ) {
         , b1 = new Buffer( numbers1 )
         , b2 = new Buffer( numbers2 )
         , r1 = new Buffer( numbers1.reverse() )
+        , i = 0
         ;
 
     log( '- fill 3 Buffers with test data.' );
@@ -52,6 +53,10 @@ exports.test  = function ( done, assertions ) {
     assert.equal( compare( b1, 0, null, 0 ), null );
 
     assert.equal( compare( b1, 0, b2, 0, 4 ), null );
+
+    assert.equal( compare( b2, 0, b1, 0, 3 ), 0 );
+    assert.equal( compare( b2, 0, b1, 3, 3 ), 1 );
+    assert.equal( compare( b2, 0, b1, 6, 3 ), 1 );
 
     exit();
 };
