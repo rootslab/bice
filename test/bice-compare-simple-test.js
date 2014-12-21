@@ -17,11 +17,11 @@ exports.test  = function ( done, assertions ) {
 
     log( '- fill 3 Buffers with test data.' );
 
-    log( ' - b1:', b1 );
-    log( ' - r1:', r1 );
-    log( ' - b2:', b2 );
+    log( '\n- b1:', b1 );
+    log( '- r1:', r1 );
+    log( '- b2:', b2 );
 
-    log( '- run comparison tests..' );
+    log( '\n- running comparison tests..' );
 
     assert.equal( compare( b1, 0, r1, 0, 3 ), -1 );
     assert.equal( compare( r1, 0, b1, 0, 3 ), 1 );
@@ -47,6 +47,11 @@ exports.test  = function ( done, assertions ) {
 
     assert.equal( compare( b1, 6, r1, 6 ), 1 );
     assert.equal( compare( r1, 6, b1, 6 ), -1 );
+
+    assert.equal( compare( null, 0, b1, 0 ), null );
+    assert.equal( compare( b1, 0, null, 0 ), null );
+
+    assert.equal( compare( b1, 0, b2, 0, 4 ), null );
 
     exit();
 };

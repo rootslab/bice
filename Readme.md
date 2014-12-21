@@ -75,11 +75,16 @@ Bice#reverse : function ( Buffer buffer [, Number pos [, Number bytes ] ] ) : Bo
 
 /*
  * Compares values from 2 buffers.
+ * Optionally, it accepts the number of bytes to read; if it is not specified,
+ * it compares a number of bytes equals to the length of the smaller Buffer.
+ *
  * It returns:
+ *
  * -  0 when b1 === b2
  * - +1 when b1 > b2
  * - -1 when b1 < b2
- * - null otherwise
+ * - null otherwise (read index overflow, 0-length Buffers, ..)
+ *
  */
 Bice#compare : function ( Buffer b1, Number p1, Buffer b2, Number p2 [, Number bytes ] ) : Number
 ```
