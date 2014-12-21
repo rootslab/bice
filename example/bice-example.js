@@ -3,11 +3,11 @@ var log = console.log
     , b = new Buffer( [ 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ] )
     ;
 
-log( '\n- original order:', b )
+log( '\n- original order:', b );
 
 Bice.reverse( b );
 
-log( '\n- reverted order:', b )
+log( '\n- reverted order:', b );
 
 Bice.swap( b, 0, 5, 5 );
 
