@@ -1,23 +1,23 @@
 ### Bice
 
-[![NPM VERSION](http://img.shields.io/npm/v/bice.svg)](https://www.npmjs.org/package/bice)
-[![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg)](https://www.codacy.com/public/44gatti/bice)
-[![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/bice/badges/coverage.svg)](https://codeclimate.com/github/rootslab/bice)
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/bice#mit-license)
+[![NPM VERSION](http://img.shields.io/npm/v/bice.svg?style=flat)](https://www.npmjs.org/package/bice)
+[![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/bice)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/bice.svg?style=flat)](https://codeclimate.com/github/rootslab/bice)
+[![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/bice.svg?style=flat)](https://codeclimate.com/github/rootslab/bice)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/bice#mit-license)
 
-[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/bice.svg)](http://travis-ci.org/rootslab/bice)
-[![BUILD STATUS](http://img.shields.io/david/rootslab/bice.svg)](https://david-dm.org/rootslab/bice)
-[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/bice.svg)](https://david-dm.org/rootslab/bice#info=devDependencies)
-
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/bice/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/bice)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/bice/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/bice)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/bice/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/bice)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/bice.svg)](http://npm-stat.com/charts.html?package=bice)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/bice.svg?style=flat)](http://travis-ci.org/rootslab/bice)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/bice.svg?style=flat)](https://david-dm.org/rootslab/bice)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/bice.svg?style=flat)](https://david-dm.org/rootslab/bice#info=devDependencies)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/bice.svg?style=flat)](http://npm-stat.com/charts.html?package=bice)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/bice.png)](https://nodei.co/npm/bice/)
 
 [![NPM GRAPH2](https://nodei.co/npm/bice.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bice/)
+
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/bice/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/bice)
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/bice/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/bice)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/bice/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/bice)
 
 > __Bice__, a tiny module that offers a fast way to swap arbitrary length sequences of bytes within a Buffer, using only the Buffer itself and the bitwise __XOR__ operator.
 
